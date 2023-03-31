@@ -16,10 +16,8 @@
 
 <body>
     <div class="header">
-        <a href="<?php echo esc_url(home_url('/')); ?>">
-            <h2 class="logo">
-                <?php bloginfo('name'); ?>
-            </h2>
+        <a class="logo" href="<?php echo esc_url(home_url('/')); ?>">
+            <img src="<?php echo esc_url(get_theme_file_uri('logo.svg')); ?>">
         </a>
         <nav>
             <?php wp_nav_menu(array('menu' => 'primary', 'theme_location' => 'header-menu', 'fallback_cb' => false)); ?>

@@ -154,13 +154,11 @@ body {
 }
 
 .header .logo {
-    margin-left: 1ch;
-    font-family: monospace;
-    color: white;
+    height: 4rem;
 }
 
 .header img {
-    height: 4rem;
+    height: 100%;
 }
 
 .header nav ul,
@@ -196,9 +194,7 @@ body {
     animation-duration: 0.4s;
 }
 
-.footer a,
-.header a,
-.container_proj a {
+a {
     color: #7e9abc;
     text-decoration: none;
     -webkit-transition: color 0.5s linear;
@@ -208,9 +204,7 @@ body {
     transition: color 0.5s linear;
 }
 
-.footer a:hover,
-.header a:hover,
-.container_proj a:hover {
+a:hover {
     color: #d08770;
 }
 
